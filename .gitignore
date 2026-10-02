@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Dataset
+UrbanSound8K/
+data/
+*.wav
+*.mp3
+*.flac
+
+# Large ML files
+*.h5
+*.hdf5
+*.keras
+*.pkl
+*.joblib
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

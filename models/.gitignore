@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Dataset
+UrbanSound8K/
+data/
+*.wav
+*.mp3
+*.flac
+
+# Large ML files
+*.h5
+*.hdf5
+*.keras
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+
+# Python cache
+.pytest_cache/
