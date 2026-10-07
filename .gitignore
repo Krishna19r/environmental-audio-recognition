@@ -1,33 +1,33 @@
-# Python
+# Virtual environment
+.venv/
+
+# Python cache
 __pycache__/
 *.py[cod]
-*.pyo
+*$py.class
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Virtual environment
-.venv/
-venv/
-env/
-
 # Dataset
-UrbanSound8K/
-data/
+data/ESC-50/
+data/audio/
 *.wav
-*.mp3
-*.flac
+*.WAV
 
-# Large ML files
-*.h5
-*.hdf5
-*.keras
-*.pkl
-*.joblib
+# Trained models
+models/*.pth
+models/*.pt
+models/*.ckpt
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # IDE
 .vscode/
-
-# OS
-.DS_Store
-Thumbs.db
+.idea/
