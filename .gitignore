@@ -1,7 +1,7 @@
-# Virtual environment
+# Virtual Environment
 .venv/
 
-# Python cache
+# Python Cache
 __pycache__/
 *.py[cod]
 *$py.class
@@ -9,25 +9,23 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Dataset
-data/ESC-50/
-data/audio/
-*.wav
-*.WAV
-
-# Trained models
-models/*.pth
-models/*.pt
-models/*.ckpt
-
-# Python tooling
+# Python Tooling
 .pytest_cache/
 .mypy_cache/
 
-# OS files
+# OS Files
 .DS_Store
 Thumbs.db
 
 # IDE
 .vscode/
 .idea/
+
+# Local / Temporary Files
+*.log
+*.tmp
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
