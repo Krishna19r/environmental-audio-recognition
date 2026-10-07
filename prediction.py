@@ -42,7 +42,7 @@ DEVICE = torch.device(
 # ============================================================
 # 3. AUDIO PREPROCESSING
 # ============================================================
-# These values match the training notebook exactly.
+# These values match the training notebook exactly
 
 SAMPLE_RATE = 22050
 DURATION = 5
@@ -152,11 +152,7 @@ class ESC50CNN(nn.Module):
     This matches the architecture used in the training notebook.
     """
 
-    def __init__(
-        self,
-        num_classes=50,
-        dropout=0.3
-    ):
+    def __init__(self, num_classes=50, dropout=0.3):
         super().__init__()
 
         self.features = nn.Sequential(
@@ -274,11 +270,7 @@ def load_model():
 # 6. PREDICTION
 # ============================================================
 
-def predict_audio(
-    audio_path: Path,
-    model: nn.Module,
-    class_names: list[str]
-):
+def predict_audio(audio_path: Path, model: nn.Module, class_names: list[str]):
     """
     Predict the environmental sound in an audio file.
 
@@ -323,12 +315,7 @@ def predict_audio(
 # 7. DISPLAY
 # ============================================================
 
-def print_result(
-    audio_path: Path,
-    predicted_class: str,
-    confidence: float,
-    top_predictions: list[tuple[str, float]]
-):
+def print_result(audio_path: Path, predicted_class: str, confidence: float, top_predictions: list[tuple[str, float]]):
     """Display the inference result."""
 
     print()
