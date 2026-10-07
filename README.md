@@ -97,25 +97,25 @@ Input Mel Spectrogram
         ▼
 ┌─────────────────────┐
 │ Conv2D: 1 → 32      │
-│ BatchNorm            │
-│ ReLU                 │
-│ MaxPool              │
+│ BatchNorm           │
+│ ReLU                │
+│ MaxPool             │
 └─────────────────────┘
         │
         ▼
 ┌─────────────────────┐
 │ Conv2D: 32 → 64     │
-│ BatchNorm            │
-│ ReLU                 │
-│ MaxPool              │
+│ BatchNorm           │
+│ ReLU                │
+│ MaxPool             │
 └─────────────────────┘
         │
         ▼
 ┌─────────────────────┐
 │ Conv2D: 64 → 128    │
-│ BatchNorm            │
-│ ReLU                 │
-│ MaxPool              │
+│ BatchNorm           │
+│ ReLU                │
+│ MaxPool             │
 └─────────────────────┘
         │
         ▼
